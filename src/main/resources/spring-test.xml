@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+         https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframeword.org/schema/tx/spring-tx.xsd"
+>
+
+    <!--注解aop开启-->
+<!--    <aop:aspectj-autoproxy/>-->
+    <!--注解依赖注入开启，扫描含依赖注入注解的包-->
+    <context:component-scan base-package="dao,service, utils"/>
+    <!-- 第一种方法 调用对象自身的默认构造函数，如果没有默认构造函数则报错 -->
+    <!--    <bean id="userService" class="service.impl.UserServiceImpl" init-method="init" destroy-method="destroy" scope="prototype"/>-->
+    <!--第二种方法通过调用工厂创建对象-->
+    <!--    <bean id="instanceFactory" class="factory.InstanceFactory"/>-->
+    <!--    <bean id="userService" factory-bean="instanceFactory" factory-method="getUserService" class="service.impl.UserServiceImpl"/>-->
+
+    <!-- 第三种调用工厂方法的静态方法 -->
+    <!--    <bean id="userService" class="factory.InstanceStaticFactory" factory-method="getUserService"/>-->
+
+    <bean id="user" class="pojo.User">
+        <constructor-arg name="id" value="312"/>
+        <constructor-arg name="name" value="231"/>
+        <constructor-arg name="password" value="123"/>
+    </bean>
+
+    <bean id="inputStream" class="org.apache.ibatis.io.Resources" factory-method="getResourceAsStream"
+          scope="prototype" destroy-method="close">
+        <constructor-arg value="sqlMapperConfig.xml"/>
+    </bean>
+
+    <bean id="sqlSessionFactoryBuilder" class="org.apache.ibatis.session.SqlSessionFactoryBuilder"/>
+
+    <!--暂时改成sqlSessionFactory1，使用再改成sqlSessionFactory-->
+    <bean id="sqlSessionFactory1" factory-bean="sqlSessionFactoryBuilder" factory-method="build">
+        <constructor-arg name="inputStream" ref="inputStream"/>
+    </bean>
+
+    <bean id="sqlSessionUtils" class="utils.SqlSessionUtils" destroy-method="destroy">
+        <constructor-arg ref="sqlSessionFactory"/>
+    </bean>
+
+    <bean id="sqlSession" factory-bean="sqlSessionUtils" factory-method="getSqlSession" scope="prototype"
+          destroy-method="close"/>
+
+    <!--aop 配置-->
+    <!--    <aop:config>-->
+    <!--        <aop:pointcut id="servicePct" expression="execution(* service.UserService.*(..))"/>-->
+    <!--        <aop:aspect id="transaction" ref="transactionManager">-->
+    <!--            <aop:after-returning method="commit" pointcut-ref="servicePct"/>-->
+    <!--            <aop:after-throwing method="rollback" pointcut-ref="servicePct"/>-->
+    <!--        </aop:aspect>-->
+    <!--    </aop:config>-->
+
+    <!--    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
+    <!--        <constructor-arg ref=""/>-->
+    <!--    </bean>-->
+
+
+    <bean id="employeeDao"  factory-bean="sqlSession" factory-method="getMapper" scope="prototype">
+        <constructor-arg type="java.lang.Class" value="dao.EmployeeDao"/>
+    </bean>
+
+</beans>

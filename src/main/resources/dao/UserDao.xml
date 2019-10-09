@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="dao.UserDao">
+    <select id="getUser" parameterType="user" resultType="User">
+        SELECT * FROM study.user WHERE id = #{id};
+    </select>
+    
+    <insert id="saveUser" parameterType="User">
+    <selectKey keyColumn="id" keyProperty="id" resultType="long" order="AFTER">
+        SELECT last_insert_id();
+    </selectKey>
+        INSERT INTO study.user(name, password) VALUES(#{name}, #{password});
+    </insert>
+
+    <delete id="deleteUser" parameterType="long">
+        DELETE FROM study.user WHERE id = #{id};
+    </delete>
+
+    <update id="updateUser" parameterType="User">
+        UPDATE study.user SET name = #{name}, password = #{password}  WHERE id = #{id};
+    </update>
+
+    <select id="getUserByName" parameterType="string" resultType="User">
+      <!--  SELECT *  FROM study.user WHERE name LIKE #{name} -->
+        SELECT * FROM study.user WHERE name LIKE '%${value}%'
+    </select>
+
+    <select id="getUserByQueryUserName" parameterType="QueryVal" resultType="user">
+        SELECT * FROM study.user WHERE name LIKE #{user.name};
+    </select>
+
+
+
+</mapper>
