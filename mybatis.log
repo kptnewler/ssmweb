@@ -8425,3 +8425,729 @@
 2019-10-06 21:50:32,531 879    [           main] DEBUG         dao.UserDao.updateUser  - <==    Updates: 1
 2019-10-06 21:50:32,532 880    [           main] DEBUG mybatis.spring.SqlSessionUtils  - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@62ea3440]
 2019-10-06 21:50:32,532 880    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1672598778 to pool.
+2019-10-09 23:38:20,399 0      [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-09 23:38:20,439 40     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-09 23:38:20,439 40     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-09 23:38:20,439 40     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-09 23:38:20,992 593    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-09 23:38:20,992 593    [on(3)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-09 23:38:20,992 593    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-09 23:38:20,992 593    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-09 23:38:21,002 603    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-09 23:38:21,002 603    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:38:21,002 603    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:38:21,032 633    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-09 23:38:21,032 633    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-09 23:38:21,032 633    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-09 23:38:21,032 633    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-09 23:38:21,032 633    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:38:21,032 633    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Department.class
+2019-10-09 23:38:21,032 633    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Department.class
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Employee.class
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Employee.class
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/QueryVal.class
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/QueryVal.class
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/User.class
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/User.class
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-09 23:38:21,042 643    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-09 23:38:21,052 653    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-09 23:38:21,052 653    [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:38:21,052 653    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:38:21,052 653    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:38:21,052 653    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-09 23:38:21,052 653    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-09 23:38:21,052 653    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-09 23:38:21,062 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.class
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.class
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.xml
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.xml
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-09 23:38:21,072 673    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:38:21,220 821    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-09 23:38:21,230 831    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-09 23:39:53,291 92892  [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-09 23:40:15,971 0      [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-09 23:40:15,980 9      [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-09 23:40:15,980 9      [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-09 23:40:15,980 9      [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-09 23:40:16,497 526    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-09 23:40:16,497 526    [on(3)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-09 23:40:16,499 528    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-09 23:40:16,501 530    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-09 23:40:16,501 530    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-09 23:40:16,502 531    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:40:16,502 531    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:40:16,538 567    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-09 23:40:16,538 567    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-09 23:40:16,539 568    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-09 23:40:16,539 568    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-09 23:40:16,540 569    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:40:16,540 569    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Department.class
+2019-10-09 23:40:16,540 569    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Department.class
+2019-10-09 23:40:16,541 570    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-09 23:40:16,542 571    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Employee.class
+2019-10-09 23:40:16,542 571    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Employee.class
+2019-10-09 23:40:16,542 571    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-09 23:40:16,543 572    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/QueryVal.class
+2019-10-09 23:40:16,543 572    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/QueryVal.class
+2019-10-09 23:40:16,544 573    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-09 23:40:16,544 573    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/User.class
+2019-10-09 23:40:16,545 574    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/User.class
+2019-10-09 23:40:16,546 575    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-09 23:40:16,547 576    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-09 23:40:16,550 579    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-09 23:40:16,550 579    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-09 23:40:16,551 580    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-09 23:40:16,555 584    [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:40:16,558 587    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:40:16,558 587    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:40:16,560 589    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-09 23:40:16,561 590    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-09 23:40:16,562 591    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-09 23:40:16,562 591    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-09 23:40:16,563 592    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-09 23:40:16,564 593    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-09 23:40:16,564 593    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-09 23:40:16,565 594    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-09 23:40:16,565 594    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-09 23:40:16,565 594    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:40:16,566 595    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-09 23:40:16,566 595    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-09 23:40:16,566 595    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-09 23:40:16,566 595    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-09 23:40:16,567 596    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-09 23:40:16,567 596    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:40:16,568 597    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-09 23:40:16,568 597    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-09 23:40:16,569 598    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-09 23:40:16,570 599    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-09 23:40:16,570 599    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-09 23:40:16,570 599    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-09 23:40:16,571 600    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-09 23:40:16,572 601    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-09 23:40:16,572 601    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:40:16,573 602    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-09 23:40:16,573 602    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-09 23:40:16,574 603    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-09 23:40:16,574 603    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.class
+2019-10-09 23:40:16,575 604    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.class
+2019-10-09 23:40:16,575 604    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-09 23:40:16,575 604    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.xml
+2019-10-09 23:40:16,576 605    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.xml
+2019-10-09 23:40:16,576 605    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:40:16,577 606    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-09 23:40:16,577 606    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-09 23:40:16,578 607    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-09 23:40:16,579 608    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-09 23:40:16,579 608    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:40:16,580 609    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-09 23:40:16,580 609    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:40:16,581 610    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-09 23:40:16,581 610    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:40:16,741 770    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-09 23:40:16,743 772    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-09 23:59:47,732 0      [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-09 23:59:47,742 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-09 23:59:47,742 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-09 23:59:47,742 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-09 23:59:48,360 628    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-09 23:59:48,360 628    [on(3)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-09 23:59:48,370 638    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-09 23:59:48,370 638    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-09 23:59:48,370 638    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-09 23:59:48,370 638    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:59:48,370 638    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:59:48,410 678    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-09 23:59:48,410 678    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-09 23:59:48,410 678    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-09 23:59:48,410 678    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-09 23:59:48,410 678    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-09 23:59:48,410 678    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Department.class
+2019-10-09 23:59:48,410 678    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Department.class
+2019-10-09 23:59:48,410 678    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Employee.class
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Employee.class
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/QueryVal.class
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/QueryVal.class
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/User.class
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/User.class
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-09 23:59:48,420 688    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-09 23:59:48,430 698    [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-09 23:59:48,430 698    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:59:48,430 698    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:59:48,430 698    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-09 23:59:48,430 698    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-09 23:59:48,440 708    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.class
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.class
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.xml
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.xml
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-09 23:59:48,450 718    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:59:48,460 728    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-09 23:59:48,460 728    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-09 23:59:48,620 888    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-09 23:59:48,620 888    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-10 00:01:12,743 85011  [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:04:24,592 1      [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-10 00:04:24,603 12     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-10 00:04:24,604 13     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-10 00:04:24,604 13     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-10 00:04:25,202 611    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-10 00:04:25,202 611    [on(3)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-10 00:04:25,204 613    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-10 00:04:25,206 615    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-10 00:04:25,207 616    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-10 00:04:25,207 616    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-10 00:04:25,208 617    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-10 00:04:25,252 661    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-10 00:04:25,253 662    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-10 00:04:25,254 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-10 00:04:25,254 663    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-10 00:04:25,255 664    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/
+2019-10-10 00:04:25,255 664    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:04:25,256 665    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:04:25,257 666    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-10 00:04:25,258 667    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:04:25,259 668    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:04:25,260 669    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-10 00:04:25,260 669    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:04:25,261 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:04:25,261 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-10 00:04:25,262 671    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/User.class
+2019-10-10 00:04:25,262 671    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/pojo/User.class
+2019-10-10 00:04:25,263 672    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-10 00:04:25,264 673    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-10 00:04:25,265 674    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-10 00:04:25,266 675    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-10 00:04:25,267 676    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-10 00:04:25,271 680    [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:04:25,274 683    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-10 00:04:25,274 683    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-10 00:04:25,275 684    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-10 00:04:25,276 685    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-10 00:04:25,276 685    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-10 00:04:25,277 686    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-10 00:04:25,278 687    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-10 00:04:25,278 687    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-10 00:04:25,279 688    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-10 00:04:25,280 689    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-10 00:04:25,281 690    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-10 00:04:25,281 690    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/
+2019-10-10 00:04:25,281 690    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:04:25,282 691    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:04:25,282 691    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-10 00:04:25,283 692    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:04:25,283 692    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:04:25,284 693    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:04:25,284 693    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:04:25,284 693    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:04:25,285 694    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-10 00:04:25,286 695    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:04:25,286 695    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:04:25,287 696    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-10 00:04:25,287 696    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:04:25,288 697    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:04:25,288 697    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:04:25,289 698    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:04:25,289 698    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:04:25,290 699    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-10 00:04:25,291 700    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:04:25,291 700    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:04:25,291 700    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-10 00:04:25,292 701    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:04:25,292 701    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:04:25,293 702    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:04:25,293 702    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:04:25,293 702    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/target/ssmweb/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:04:25,294 703    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-10 00:04:25,296 705    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-10 00:04:25,296 705    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:04:25,297 706    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-10 00:04:25,297 706    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:04:25,298 707    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-10 00:04:25,298 707    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:04:25,471 880    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-10 00:04:25,471 880    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-10 00:05:51,180 86589  [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:06:23,802 0      [on(2)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-10 00:06:23,810 8      [on(2)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-10 00:06:23,810 8      [on(2)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-10 00:06:23,810 8      [on(2)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-10 00:06:24,320 518    [on(2)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-10 00:06:24,320 518    [on(2)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-10 00:06:24,320 518    [on(2)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-10 00:06:24,320 518    [on(2)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-10 00:06:24,320 518    [on(2)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-10 00:06:24,320 518    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:06:24,320 518    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:06:24,350 548    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-10 00:06:24,350 548    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-10 00:06:24,350 548    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-10 00:06:24,350 548    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-10 00:06:24,350 548    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:06:24,350 548    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:06:24,350 548    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-10 00:06:24,360 558    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-10 00:06:24,370 568    [on(2)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:06:24,370 568    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:06:24,370 568    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:06:24,370 568    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:06:24,380 578    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-10 00:06:24,390 588    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:06:24,540 738    [on(2)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-10 00:06:24,540 738    [on(2)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-10 00:42:13,977 0      [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-10 00:42:13,987 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-10 00:42:13,987 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-10 00:42:13,987 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-10 00:42:14,470 493    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-10 00:42:14,470 493    [on(3)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-10 00:42:14,470 493    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-10 00:42:14,470 493    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-10 00:42:14,470 493    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-10 00:42:14,470 493    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:42:14,470 493    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:42:14,501 524    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:42:14,511 534    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-10 00:42:14,511 534    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-10 00:42:14,511 534    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-10 00:42:14,511 534    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-10 00:42:14,511 534    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-10 00:42:14,511 534    [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:42:14,521 544    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-10 00:42:14,531 554    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:42:14,671 694    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-10 00:42:14,681 704    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-10 00:43:36,030 82053  [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:43:59,630 0      [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-10 00:43:59,640 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-10 00:43:59,640 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-10 00:43:59,640 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-10 00:44:00,230 600    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-10 00:44:00,230 600    [on(3)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-10 00:44:00,230 600    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-10 00:44:00,230 600    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-10 00:44:00,230 600    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-10 00:44:00,230 600    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:44:00,230 600    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:44:00,270 640    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-10 00:44:00,280 650    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-10 00:44:00,290 660    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-10 00:44:00,300 670    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:44:00,310 680    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-10 00:44:00,310 680    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:44:00,310 680    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-10 00:44:00,310 680    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:44:00,470 840    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-10 00:44:00,470 840    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-10 00:48:02,546 242916 [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2019-10-10 00:48:38,349 0      [on(2)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-10 00:48:38,359 10     [on(2)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-10 00:48:38,359 10     [on(2)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-10 00:48:38,359 10     [on(2)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-10 00:48:39,034 685    [on(2)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-10 00:48:39,034 685    [on(2)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-10 00:48:39,037 688    [on(2)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-10 00:48:39,039 690    [on(2)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-10 00:48:39,040 691    [on(2)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-10 00:48:39,041 692    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:48:39,041 692    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:48:39,070 721    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-10 00:48:39,070 721    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-10 00:48:39,070 721    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-10 00:48:39,070 721    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-10 00:48:39,070 721    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:48:39,070 721    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:48:39,070 721    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:48:39,070 721    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-10 00:48:39,080 731    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-10 00:48:39,090 741    [on(2)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:48:39,090 741    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:48:39,090 741    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:48:39,090 741    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-10 00:48:39,090 741    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-10 00:48:39,090 741    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-10 00:48:39,090 741    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-10 00:48:39,090 741    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:48:39,100 751    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-10 00:48:39,110 761    [on(2)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:48:39,296 947    [on(2)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-10 00:48:39,306 957    [on(2)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-10 00:49:05,143 0      [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-10-10 00:49:05,153 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'departmentDao' and 'dao.DepartmentDao' mapperInterface
+2019-10-10 00:49:05,153 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'employeeDao' and 'dao.EmployeeDao' mapperInterface
+2019-10-10 00:49:05,153 10     [on(3)-127.0.0.1] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'userDao' and 'dao.UserDao' mapperInterface
+2019-10-10 00:49:05,694 551    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2019-10-10 00:49:05,694 551    [on(3)-127.0.0.1] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2019-10-10 00:49:05,694 551    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2019-10-10 00:49:05,694 551    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2019-10-10 00:49:05,694 551    [on(3)-127.0.0.1] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2019-10-10 00:49:05,694 551    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:49:05,694 551    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Department.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Employee.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVal.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Department.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 M
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/Employee.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 U
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:49:05,724 581    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/QueryVal.class
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/pojo/User.class
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 <
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Department matches criteria [is assignable to Object]
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.Employee matches criteria [is assignable to Object]
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.QueryVal matches criteria [is assignable to Object]
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class pojo.User matches criteria [is assignable to Object]
+2019-10-10 00:49:05,734 591    [on(3)-127.0.0.1] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2019-10-10 00:49:05,744 601    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:49:05,744 601    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:49:05,746 603    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.class
+2019-10-10 00:49:05,746 603    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDao.xml
+2019-10-10 00:49:05,747 604    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: DepartmentDaoTest.class
+2019-10-10 00:49:05,747 604    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.class
+2019-10-10 00:49:05,748 605    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDao.xml
+2019-10-10 00:49:05,748 605    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: EmployeeDaoTest.class
+2019-10-10 00:49:05,749 606    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2019-10-10 00:49:05,749 606    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.xml
+2019-10-10 00:49:05,750 607    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDaoTest.class
+2019-10-10 00:49:05,750 607    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/
+2019-10-10 00:49:05,750 607    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:49:05,750 607    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.class
+2019-10-10 00:49:05,751 608    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4  	 
+2019-10-10 00:49:05,751 608    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:49:05,751 608    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDao.xml
+2019-10-10 00:49:05,752 609    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:49:05,752 609    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:49:05,752 609    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/DepartmentDaoTest.class
+2019-10-10 00:49:05,753 610    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 {
+2019-10-10 00:49:05,753 610    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:49:05,753 610    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.class
+2019-10-10 00:49:05,754 611    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4   
+2019-10-10 00:49:05,754 611    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:49:05,754 611    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDao.xml
+2019-10-10 00:49:05,755 612    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:49:05,755 612    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:49:05,755 612    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/EmployeeDaoTest.class
+2019-10-10 00:49:05,755 612    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 k
+2019-10-10 00:49:05,756 613    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:49:05,756 613    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.class
+2019-10-10 00:49:05,757 614    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4    getUser (J)Lpojo/User; saveUser (Lpojo/User;)J 
+2019-10-10 00:49:05,757 614    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:49:05,757 614    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDao.xml
+2019-10-10 00:49:05,757 614    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: <?xml version="1.0" encoding="UTF-8" ?>
+2019-10-10 00:49:05,758 615    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:49:05,758 615    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/E:/Code/JavaCode/ssmweb/out/artifacts/test_war_exploded/WEB-INF/classes/dao/UserDaoTest.class
+2019-10-10 00:49:05,758 615    [on(3)-127.0.0.1] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: Êþº¾   4 ?
+2019-10-10 00:49:05,759 616    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDao matches criteria [is assignable to Object]
+2019-10-10 00:49:05,759 616    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.DepartmentDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:49:05,760 617    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDao matches criteria [is assignable to Object]
+2019-10-10 00:49:05,760 617    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.EmployeeDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:49:05,761 618    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDao matches criteria [is assignable to Object]
+2019-10-10 00:49:05,761 618    [on(3)-127.0.0.1] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class dao.UserDaoTest matches criteria [is assignable to Object]
+2019-10-10 00:49:05,904 761    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Parsed configuration file: 'class path resource [sqlMapperConfig.xml]'
+2019-10-10 00:49:05,906 763    [on(3)-127.0.0.1] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2019-10-10 00:49:25,943 20800  [      Finalizer] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
