@@ -19,7 +19,7 @@
 
     <aop:aspectj-autoproxy/>
 
-    <context:component-scan base-package="dao,service, utils"/>
+    <context:component-scan base-package="dao service"/>
 
     <bean id="dataSource" class="org.apache.ibatis.datasource.pooled.PooledDataSource">
         <constructor-arg name="driver" value="${driver}"/>

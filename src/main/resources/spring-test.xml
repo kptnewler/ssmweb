@@ -46,7 +46,7 @@
     </bean>
 
     <bean id="sqlSessionUtils" class="utils.SqlSessionUtils" destroy-method="destroy">
-        <constructor-arg ref="sqlSessionFactory"/>
+        <constructor-arg ref="sqlSessionFactory1"/>
     </bean>
 
     <bean id="sqlSession" factory-bean="sqlSessionUtils" factory-method="getSqlSession" scope="prototype"
