@@ -12,10 +12,12 @@
     <mvc:annotation-driven/>
 
     <context:component-scan base-package="controller"/>
+    <mvc:default-servlet-handler/>
 
-    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="suffix" value=".html"/>
-        <property name="prefix" value="/WEB-INF/pages"/>
-    </bean>
+    <mvc:view-resolvers>
+        <mvc:jsp prefix="/pages/html" suffix=".html"/>
+    </mvc:view-resolvers>
+
+    <mvc:resources mapping="/pages/**" location="/pages/"/>
 
 </beans>

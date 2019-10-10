@@ -6,6 +6,26 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <welcome-file-list>
-    <welcome-file>/WEB-INF/index.jsp</welcome-file>
+    <welcome-file>/index.jsp</welcome-file>
   </welcome-file-list>
+
+
+
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>default</servlet-name>-->
+<!--    <url-pattern>*.jpg</url-pattern>-->
+<!--  </servlet-mapping>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>default</servlet-name>-->
+<!--    <url-pattern>*.js</url-pattern>-->
+<!--  </servlet-mapping>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>default</servlet-name>-->
+<!--    <url-pattern>*.css</url-pattern>-->
+<!--  </servlet-mapping>-->
+<!--  <servlet-mapping>-->
+<!--    <servlet-name>default</servlet-name>-->
+<!--    <url-pattern>*.html</url-pattern>-->
+<!--  </servlet-mapping>-->
+
 </web-app>

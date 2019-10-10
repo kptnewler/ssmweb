@@ -9,13 +9,13 @@ public class WebAppInitializer extends AbstractDispatcherServletInitializer {
     @Override
     protected WebApplicationContext createServletApplicationContext() {
         XmlWebApplicationContext cxt = new XmlWebApplicationContext();
-        cxt.setConfigLocation("classpath:spring-context.xml");
+        cxt.setConfigLocations("classpath:spring-context.xml", "classpath:spring-dao.xml");
         return cxt;
     }
 
     @Override
     protected String[] getServletMappings() {
-        return new String[]{"/*"};
+        return new String[]{"/"};
     }
 
     @Override
