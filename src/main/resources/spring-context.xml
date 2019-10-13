@@ -15,7 +15,7 @@
     <mvc:default-servlet-handler/>
 
     <mvc:view-resolvers>
-        <mvc:jsp prefix="/pages/html" suffix=".html"/>
+        <mvc:jsp prefix="/pages/html/" suffix=".jsp"/>
     </mvc:view-resolvers>
 
     <mvc:resources mapping="/pages/**" location="/pages/"/>
