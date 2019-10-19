@@ -51,11 +51,13 @@ public class LoginController {
         if (!fileContainer.exists()) {
             fileContainer.mkdirs();
         }
-
+        System.out.println(file.isEmpty());
         if (file!=null && file.isEmpty()) {
             String filename = file.getOriginalFilename();
             filename += System.currentTimeMillis();
             File uploadFile = new File(path + "/"+filename);
+
+            System.out.println("filename:" + uploadFile.getPath());
             file.transferTo(uploadFile);
         }
 

@@ -26,7 +26,7 @@
     </script>
 </head>
 <body>
-<form id="login-form" method="post" action="user/upload">
+<form id="login-form" method="post" action="user/upload" enctype="multipart/form-data">
     <div>
         <label>
             <span>用户名：</span>
