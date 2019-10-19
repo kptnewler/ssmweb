@@ -26,7 +26,7 @@
     </script>
 </head>
 <body>
-<form id="login-form" method="post" action="user/login.action">
+<form id="login-form" method="post" action="user/upload">
     <div>
         <label>
             <span>用户名：</span>
@@ -47,6 +47,15 @@
                 生日：
             </span>
             <input type="text" name="birthday">
+        </label>
+    </div>
+
+    <div>
+        <label>
+            <span>
+                头像：
+            </span>
+            <input type="file" name="file">
         </label>
     </div>
 

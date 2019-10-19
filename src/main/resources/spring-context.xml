@@ -69,6 +69,10 @@
         <mvc:jsp prefix="/pages/html/" suffix=".jsp"/>
     </mvc:view-resolvers>
 
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="uploadTempDir"  value="tmp"/>
+    </bean>
+
     <mvc:resources mapping="/pages/**" location="/pages/"/>
 
 </beans>
