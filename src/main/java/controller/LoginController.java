@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.context.request.NativeWebRequest;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
@@ -14,6 +15,7 @@ import pojo.User;
 import pojo.convert.DateEditor;
 
 import javax.jws.WebResult;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.awt.event.TextEvent;
 import java.io.File;
@@ -45,18 +47,17 @@ public class LoginController {
     }
 
     @PostMapping("/upload")
-    public String uploadFile(MultipartFile file, WebRequest webRequest) throws IOException {
-        String path = webRequest.getContextPath() + "/upload";
+    public String uploadFile(MultipartFile file, HttpServletRequest webRequest) throws IOException {
+        String path = webRequest.getServletContext().getRealPath("/upload");
         File fileContainer = new File(path);
         if (!fileContainer.exists()) {
             fileContainer.mkdirs();
         }
-        System.out.println(file.isEmpty());
-        if (file!=null && file.isEmpty()) {
+        if (file!=null && !file.isEmpty()) {
             String filename = file.getOriginalFilename();
             filename += System.currentTimeMillis();
             File uploadFile = new File(path + "/"+filename);
-
+            System.out.println(webRequest.getContextPath());
             System.out.println("filename:" + uploadFile.getPath());
             file.transferTo(uploadFile);
         }
