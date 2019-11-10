@@ -23,6 +23,34 @@
         //         return false;
         //     });
         // });
+        $(function () {
+            $("#login-form").submit(function () {
+                var formdata = new FormData($("#login-form")[0]);
+                $.ajax({
+                    url:"/user/upload",
+                    type: "POST",
+                    data:formdata,
+                    headers:{ 'Accept': "application/json; charset=utf-8", "Transfer-Encoding": "chunked"},
+                    processData: false,
+                    contentType: false,
+                    success: function (data) {
+                        alert("上传成功")
+                    }
+                });
+                return false;
+            });
+
+            $("#bt-test-cache").click(function () {
+                $.ajax({
+                    url: "/user/register.action/1",
+                    type: "GET",
+                    //'Cache-Control':'no-cache',
+                    // headers: {'Cache-Control':'no-cache'},
+                })
+            })
+        });
+
+
     </script>
 </head>
 <body>
@@ -64,6 +92,14 @@
     </div>
 
 </form>
+
+<div>
+    <span><a href="/user/download/1">下载文件</a></span>
+</div>
+
+<div>
+    <button id="bt-test-cache">测试缓存</button>
+</div>
 </body>
 
 </html>

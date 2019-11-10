@@ -16,11 +16,13 @@ import java.io.InputStream;
  */
 @Component("transactionManager")
 @Aspect
+// 切点和通知组成了切面
 public class TransactionManager {
 
 //    @Autowired
     private SqlSession sqlSession;
 
+    // 切点定义了何处切入，作用的方法表示切入的逻辑
     @Pointcut("execution(* service.UserService.*(..))")
     private void pct() {
 
@@ -30,6 +32,7 @@ public class TransactionManager {
 //        this.sqlSession = sqlSession;
 //    }
 
+    // 通知定义了何时切入，与切点共同使用作用在连接点上（commit方法）
     @AfterReturning(pointcut = "pct()")
     public void commit() {
         System.out.println("提交事务");

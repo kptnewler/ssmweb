@@ -5,6 +5,10 @@ import org.springframework.web.context.support.XmlWebApplicationContext;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 import org.springframework.web.servlet.support.AbstractDispatcherServletInitializer;
 
+import javax.servlet.MultipartConfigElement;
+import javax.servlet.ServletRegistration;
+import javax.servlet.annotation.MultipartConfig;
+
 public class WebAppInitializer extends AbstractDispatcherServletInitializer {
     @Override
     protected WebApplicationContext createServletApplicationContext() {
@@ -21,5 +25,10 @@ public class WebAppInitializer extends AbstractDispatcherServletInitializer {
     @Override
     protected WebApplicationContext createRootApplicationContext() {
         return null;
+    }
+
+    @Override
+    protected void customizeRegistration(ServletRegistration.Dynamic registration) {
+        registration.setMultipartConfig( new MultipartConfigElement("/tmp"));
     }
 }

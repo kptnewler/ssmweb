@@ -1,6 +1,7 @@
 package pojo;
 
 import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.NumberFormat;
 
 import java.sql.Date;
 
@@ -8,8 +9,10 @@ public class User {
     private String name;
     private long id;
     private String password;
-//    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birthday;
+    @NumberFormat(pattern = "#,###")
+    private int age;
 
     public User() {
     }
