@@ -1,13 +1,18 @@
 package config;
 
+import org.springframework.context.annotation.Bean;
+import org.springframework.core.io.FileSystemResource;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.XmlWebApplicationContext;
+import org.springframework.web.multipart.MultipartResolver;
+import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 import org.springframework.web.servlet.support.AbstractDispatcherServletInitializer;
 
 import javax.servlet.MultipartConfigElement;
 import javax.servlet.ServletRegistration;
 import javax.servlet.annotation.MultipartConfig;
+import java.io.IOException;
 
 public class WebAppInitializer extends AbstractDispatcherServletInitializer {
     @Override
@@ -31,4 +36,7 @@ public class WebAppInitializer extends AbstractDispatcherServletInitializer {
     protected void customizeRegistration(ServletRegistration.Dynamic registration) {
         registration.setMultipartConfig( new MultipartConfigElement("/tmp"));
     }
+
+
+
 }
