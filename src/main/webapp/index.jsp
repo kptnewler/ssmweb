@@ -1,8 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8″>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <title>主页</title>
     <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
     </script>
@@ -94,7 +96,7 @@
 </form>
 
 <div>
-    <span><a href="/user/download/1">下载文件</a></span>
+    <span><a href="/user/download/chucked/1574837217995tmp">下载文件</a></span>
 </div>
 
 <div>

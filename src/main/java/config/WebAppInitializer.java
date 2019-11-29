@@ -4,11 +4,13 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.XmlWebApplicationContext;
+import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.multipart.MultipartResolver;
 import org.springframework.web.multipart.commons.CommonsMultipartResolver;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 import org.springframework.web.servlet.support.AbstractDispatcherServletInitializer;
 
+import javax.servlet.Filter;
 import javax.servlet.MultipartConfigElement;
 import javax.servlet.ServletRegistration;
 import javax.servlet.annotation.MultipartConfig;
@@ -37,6 +39,10 @@ public class WebAppInitializer extends AbstractDispatcherServletInitializer {
         registration.setMultipartConfig( new MultipartConfigElement("/tmp"));
     }
 
-
-
+    @Override
+    protected Filter[] getServletFilters() {
+        return new Filter[] {
+                new CharacterEncodingFilter()
+        };
+    }
 }
